@@ -1,6 +1,6 @@
 # Identyfikacja Systemu HILSys (Wariant 02)
 
-Projekt realizowany w ramach przedmiotu **Identyfikacja Systemów Dynamicznych** (Automatyka i Robotyka, Semestr VI) na Politechnice Poznańskiej. Prowadzący: dr hab. inż. Maciej Michałek.
+Projekt realizowany w ramach przedmiotu **Identyfikacja Systemów Dynamicznych** (Automatyka i Robotyka, Semestr VI) na Politechnice Poznańskiej.
 
 ## 👥 Zespół Projektowy
 * Oskar Jóźwik
