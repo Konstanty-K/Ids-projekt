@@ -1,7 +1,7 @@
 % =========================================================================
 % Identyfikacja Systemów Dynamicznych - Projekt HILSys
 % Protokół S03: Wstępne przetwarzanie danych
-% Autorzy: Jakub Jagodziński, Konstanty Kaszubski, Adam Klimczak
+% Autorzy: Konstanty Kaszubski, Oskar Jóźwik
 % Wariant 02 (IV, GREY-BOX, Czas Ciągły)
 % =========================================================================
 
