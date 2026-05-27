@@ -63,6 +63,50 @@ xlabel('Czas [s]'); ylabel('Amplituda [jednostka]');
 legend('Sygnał surowy', 'Po odjęciu punktu pracy', 'Location', 'best');
 grid on;
 
+%B
+figure('Name', 'S03: Przetwarzanie Danych - Zbiór B', 'NumberTitle', 'off', 'Position', [100 100 800 600]);
+
+% Wykres wymuszenia (Sygnał u)
+subplot(2,1,1);
+plot(t, u_B, 'b--', 'LineWidth', 1); hold on;
+plot(t, u_B_proc, 'b', 'LineWidth', 1.5);
+xline(t(N_steady), 'k:', 'Koniec liczenia śr.');
+title('Sygnał sterujący u(t) - Zbiór B');
+xlabel('Czas [s]'); ylabel('Amplituda [V/jednostka]');
+legend('Sygnał surowy', 'Po odjęciu punktu pracy', 'Location', 'best');
+grid on;
+
+% Wykres odpowiedzi (Sygnał y)
+subplot(2,1,2);
+plot(t, y_B, 'r--', 'LineWidth', 1); hold on;
+plot(t, y_B_proc, 'r', 'LineWidth', 1.5);
+xline(t(N_steady), 'k:', 'Koniec liczenia śr.');
+title('Sygnał wyjściowy y(t) - Zbiór B');
+xlabel('Czas [s]'); ylabel('Amplituda [jednostka]');
+legend('Sygnał surowy', 'Po odjęciu punktu pracy', 'Location', 'best');
+grid on;
+
+figure('Name', 'S03: Przetwarzanie Danych - Zbiór C', 'NumberTitle', 'off', 'Position', [100 100 800 600]);
+
+% Wykres wymuszenia (Sygnał u)
+subplot(2,1,1);
+plot(t, u_C, 'b--', 'LineWidth', 1); hold on;
+plot(t, u_C_proc, 'b', 'LineWidth', 1.5);
+xline(t(N_steady), 'k:', 'Koniec liczenia śr.');
+title('Sygnał sterujący u(t) - Zbiór C');
+xlabel('Czas [s]'); ylabel('Amplituda [V/jednostka]');
+legend('Sygnał surowy', 'Po odjęciu punktu pracy', 'Location', 'best');
+grid on;
+
+% Wykres odpowiedzi (Sygnał y)
+subplot(2,1,2);
+plot(t, y_C, 'r--', 'LineWidth', 1); hold on;
+plot(t, y_C_proc, 'r', 'LineWidth', 1.5);
+xline(t(N_steady), 'k:', 'Koniec liczenia śr.');
+title('Sygnał wyjściowy y(t) - Zbiór C');
+xlabel('Czas [s]'); ylabel('Amplituda [jednostka]');
+legend('Sygnał surowy', 'Po odjęciu punktu pracy', 'Location', 'best');
+grid on;
 %% 5. Przypisanie do zbiorów: Estymacyjny (Ze) i Weryfikacyjne (Zv)
 % Na podstawie protokołu rozdzielamy przetworzone serie
 Ze.u = u_A_proc; Ze.y = y_A_proc; Ze.t = t;
