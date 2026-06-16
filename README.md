@@ -2,7 +2,7 @@
 
 Projekt realizowany w ramach przedmiotu **Identyfikacja Systemów Dynamicznych** (Automatyka i Robotyka, Semestr VI) na Politechnice Poznańskiej.
 
-## 👥 Zespół Projektowy
+## 🗿🗿 Zespół Projektowy
 * Oskar Jóźwik
 * Konstanty Kaszubski
 
